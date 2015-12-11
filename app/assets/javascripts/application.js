@@ -11,7 +11,6 @@
 // GO AFTER THE REQUIRES BELOW.
 //
 //= require jquery
-//= require bootstrap.min
+//= require bootstrap-sprockets
 //= require jquery_ujs
 //= require_tree .
-
