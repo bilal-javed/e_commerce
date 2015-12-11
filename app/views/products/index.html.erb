@@ -22,6 +22,6 @@
 
 <br />
 
-<%= button_to 'New Product', new_product_path, :class => "btn btn-primary btn-sm" %>
+<%= button_to 'New Product', new_product_path, method: :get, :class => "btn btn-primary btn-sm" %>
 
 <%= button_to 'Signout',  destroy_user_session_path, method: :delete, :class => "btn btn-danger btn-sm"%>

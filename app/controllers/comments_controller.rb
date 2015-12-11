@@ -1,7 +1,7 @@
 class CommentsController < ApplicationController
   before_filter :set_comment, only: [:show, :edit, :update, :destroy]
   before_filter :set_product, only: [:create]
-  before_filter :set_user, only: [:create]
+  # before_filter :set_user, only: [:create]
   respond_to :html
 
   def index
@@ -46,6 +46,7 @@ class CommentsController < ApplicationController
       @product = Product.find(params[:product_id])
     end
 
-    def set_user
-      @user = Comment.find(params[:user_id])
+    # def set_user
+    #   @user = Comment.find(params[:user_id])
+    # end
 end
