@@ -8,9 +8,11 @@ gem 'rails', '3.2.18'
 gem 'mysql2', '~> 0.3.10'
 
 #bootstrap
-gem 'bootstrap-sass', '3.2.0.2'
+# gem 'bootstrap-sass', '~> 3.3.6'
 gem 'sass-rails', '>= 3.2'
-gem 'autoprefixer-rails'
+# gem 'autoprefixer-rails'
+
+# gem 'compass-rails'
 
 
 # Gems used only for assets and not required
