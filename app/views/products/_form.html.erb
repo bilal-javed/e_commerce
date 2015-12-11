@@ -19,6 +19,11 @@
     <%= f.label :description %><br />
     <%= f.text_field :description %>
   </div>
+  <div class="field">
+    <%= f.fields_for :attachments do |photo| %>
+      <%= f.file_field :photo %>
+    <% end %>
+  </div>
   <div class="actions">
     <%= f.submit %>
   </div>
