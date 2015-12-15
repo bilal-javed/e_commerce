@@ -8,6 +8,7 @@ ruby '2.0.0'
 #gem for heroku
 gem 'rails_12factor', group: :production
 gem 'pg'
+gem 'puma'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
