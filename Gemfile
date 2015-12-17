@@ -5,15 +5,20 @@ gem 'rails', '3.2.18'
 #ruby version
 ruby '2.0.0'
 
-#gem for heroku
-gem 'rails_12factor', group: :production
-gem 'pg'
-gem 'puma'
+#production group for heroku
+group :production do
+
+	gem 'rails_12factor', group: :production
+	gem 'pg'
+	gem 'puma'
+end
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'mysql2', '~> 0.3.10'
+group :development do
+	gem 'mysql2', '~> 0.3.10'
+end
 
 #bootstrap
 gem 'bootstrap-sass', '3.2.0.2'
@@ -42,7 +47,7 @@ gem 'devise'
 gem "paperclip"
 
 #active amdin
- gem 'activeadmin'
+ gem 'activeadmin', '0.5.0'
  gem "meta_search", '>= 1.1.0.pre'
 
 # To use ActiveModel has_secure_password
