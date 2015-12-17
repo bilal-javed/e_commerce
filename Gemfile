@@ -16,8 +16,8 @@ gem 'puma'
 gem 'mysql2', '~> 0.3.10'
 
 #bootstrap
-# gem 'bootstrap-sass', '3.2.0.2'
-# gem 'autoprefixer-rails'
+gem 'bootstrap-sass', '3.2.0.2'
+gem 'autoprefixer-rails'
 
 
 # Gems used only for assets and not required
